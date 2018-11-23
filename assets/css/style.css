@@ -8,6 +8,14 @@
 [class*="col"]{
 	border: 1px solid transparent;	
 }
+html{
+	scroll-behavior: smooth;
+}
+.company{
+	font-size: 20px;
+	position: absolute;
+}
+
 
 #port-jumbo{
 	border: 5px solid rgba(15, 34, 51, 0.74);
@@ -18,7 +26,7 @@
 }
 
 #jumbo-div{
-	padding-top: 10%;
+	padding-top: 5%;
 	height: 100vh;
 	/*background-color: rgba(14, 137, 251, 0.66);*/
 	background-image: url(../images/bg5.jpeg);
@@ -31,7 +39,7 @@
 }
 .btn a{
 	text-decoration: none;
-	color: #f2f2f2;
+	color: black;
 }
 
 /* ----------- iPhone 4 and 4S ----------- */
@@ -39,7 +47,7 @@
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 480px)
+  and (max-device-width: 600px)
   and (-webkit-min-device-pixel-ratio: 2) {
 #port-jumbo{
 	border: 5px solid rgba(15, 34, 51, 0.74);
